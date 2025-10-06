@@ -1,8 +1,11 @@
 # AI Multi-Agent Coding Assistant - Dependencies
 
 # Core AutoGen packages
-autogen-agentchat>=0.4.7
-autogen-ext[gemini]>=0.4.7
+autogen-agentchat==0.4.7
+autogen-ext[gemini]==0.4.7
+
+# OpenAI SDK (required by autogen-ext)
+openai>=1.12.0
 
 # Environment variables
 python-dotenv>=1.0.0
@@ -10,10 +13,6 @@ python-dotenv>=1.0.0
 # Web interface
 streamlit>=1.50.0
 
-# Additional dependencies (installed automatically with above)
-# google-genai
-# tenacity
-# websockets
-# pandas
-# numpy
-# altair
+# Additional dependencies
+google-generativeai>=0.3.0
+tenacity>=8.2.0
