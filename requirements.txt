@@ -6,6 +6,7 @@ autogen-ext[gemini]==0.4.7
 
 # OpenAI SDK (required by autogen-ext)
 openai>=1.12.0
+tiktoken>=0.5.0
 
 # Environment variables
 python-dotenv>=1.0.0
